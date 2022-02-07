@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f4f6fc;
+}
+.contener {
+  width: 80%;
+  height: 60%;
+  margin: 10rem auto;
+  display: flex;
+  align-items: center;
+}
+.aab {
+  width: 50%;
+  margin-left: -3rem;
+}
+.login-form {
+  background-color: white;
+  width: 50%;
+  height: 93vh;
+  box-shadow: 0 0 5px #f0f0f0;
+}
+.formcha {
+  margin: 10rem auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.name {
+  font-size: 3.4rem;
+}
+.input-name {
+  font-size: 1.8rem;
+  color: #8c98a9;
+}
+.btn {
+  height: 4rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-color: #2e384d;
+}
+.form2 input {
+  border: 1px solid #8c98a9;
+  border-radius: 5px;
+  height: 4rem;
+}
+.p-help {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #8c98a9;
+}
+.help {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  transform: translate(5rem, -65rem);
+  font-size: 2rem;
+  color: white;
+}
+.help i {
+  color: white;
+}
+
+.aab img {
+  margin-top: 25px;
+}
