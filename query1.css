@@ -1,0 +1,39 @@
+@media (max-width: 1100px) {
+  html {
+    font-size: 9px;
+  }
+  .login-img {
+    text-align: center;
+    width: 90%;
+  }
+  .login-img img {
+    margin-top: 20rem;
+    width: 80%;
+    margin-left: 15rem;
+  }
+  .contener {
+    flex-direction: column;
+  }
+  .aa {
+    margin-left: 3rem;
+  }
+  .azizjon {
+    margin-top: 20rem;
+    width: 80%;
+    margin-left: 0rem;
+  }
+  .aab {
+    width: 100%;
+  }
+  .aab img {
+    width: 100%;
+    text-align: center;
+    margin-left: 2rem;
+  }
+  .login-form {
+    width: 90%;
+  }
+  .help {
+    display: none;
+  }
+}
