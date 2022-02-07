@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   box-sizing: border-box;
 }
 html {
@@ -20,29 +20,9 @@ body {
   box-shadow: 0 0 1rem #444;
   background-color: white;
   border-radius: 1.6rem;
-  padding: 0%;
 }
 .sayn {
   font-size: 3.2rem;
-}
-.pers {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.6rem;
-}
-.person {
-  border-bottom: 0.4rem solid blue;
-  vertical-align: middle;
-  padding-bottom: 0.5rem;
-}
-.personal {
-  font-size: 1.8rem;
-  vertical-align: middle;
-}
-.act {
-  border-bottom: 0.4rem solid rgba(0, 0, 255, 0.212);
-  vertical-align: middle;
-  padding-bottom: 0.5rem;
 }
 .full {
   display: flex;
@@ -59,6 +39,7 @@ body {
   box-shadow: 0 0 0.5rem #555;
   padding: 1rem;
   border: none;
+  width: 50%;
 }
 .full input::placeholder {
   font-size: 1.8rem;
@@ -66,16 +47,7 @@ body {
   vertical-align: middle;
   font-weight: 500;
 }
-.continue {
-  border-radius: 1rem;
-  background-color: blue;
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: white;
-  padding: 1rem;
-}
 .alr {
-  text-align: center;
   font-size: 1.6rem;
   color: #555;
 }
@@ -84,15 +56,12 @@ body {
   font-size: 1.6rem;
   color: blue;
 }
-.left {
-  position: relative;
-}
+
 .mine {
   background: none;
   padding: 4rem;
   display: flex;
   justify-content: space-between;
-  z-index: 1;
 }
 .mine a {
   text-decoration: none;
@@ -100,15 +69,27 @@ body {
   color: blue;
   font-weight: 600;
 }
-.right {
-  margin: 5rem 8rem;
+.loin-1 {
+  border-radius: 1rem;
+  background-color: orange;
+  color: white;
+  font-size: 1.8rem;
+  padding: 1rem;
+  width: 50%;
+}
+.left img {
+  width: 100%;
+}
+.big-left {
+  padding: 8rem;
+}
+.rght {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  background-color: #fafafa;
-  padding: 3rem 5rem;
 }
-.left img {
-  margin-top: -7rem;
-  z-index: -1;
+.forg {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.6rem;
 }
