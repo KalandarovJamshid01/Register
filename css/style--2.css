@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f4f6fc;
+}
+.container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  justify-content: center;
+  align-items: stretch;
+  margin: 5rem auto;
+  box-shadow: 0 0 1rem #444;
+  background-color: white;
+  border-radius: 1.6rem;
+}
+.sayn {
+  font-size: 3.2rem;
+}
+.full {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.full label {
+  font-size: 1.6rem;
+  color: #333;
+}
+.full input {
+  border-radius: 1rem;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 0.5rem #555;
+  padding: 1rem;
+  border: none;
+  width: 50%;
+}
+.full input::placeholder {
+  font-size: 1.8rem;
+  color: #111;
+  vertical-align: middle;
+  font-weight: 500;
+}
+.alr {
+  font-size: 1.6rem;
+  color: #555;
+}
+.alr span a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: blue;
+}
+
+.mine {
+  background: none;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.mine a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: blue;
+  font-weight: 600;
+}
+.loin-1 {
+  border-radius: 1rem;
+  background-color: orange;
+  color: white;
+  font-size: 1.8rem;
+  padding: 1rem;
+  width: 50%;
+}
+.left img {
+  width: 100%;
+}
+.big-left {
+  padding: 8rem;
+}
+.rght {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.forg {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.6rem;
+}

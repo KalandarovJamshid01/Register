@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f4f6fc;
+}
+.container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  justify-content: center;
+  align-items: stretch;
+  margin: 5rem auto;
+  box-shadow: 0 0 1rem #444;
+  background-color: white;
+  border-radius: 1.6rem;
+  padding: 0%;
+}
+.sayn {
+  font-size: 3.2rem;
+}
+.pers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
+}
+.person {
+  border-bottom: 0.4rem solid blue;
+  vertical-align: middle;
+  padding-bottom: 0.5rem;
+}
+.personal {
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+.act {
+  border-bottom: 0.4rem solid rgba(0, 0, 255, 0.212);
+  vertical-align: middle;
+  padding-bottom: 0.5rem;
+}
+.full {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.full label {
+  font-size: 1.6rem;
+  color: #333;
+}
+.full input {
+  border-radius: 1rem;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 0.5rem #555;
+  padding: 1rem;
+  border: none;
+}
+.full input::placeholder {
+  font-size: 1.8rem;
+  color: #111;
+  vertical-align: middle;
+  font-weight: 500;
+}
+.continue {
+  border-radius: 1rem;
+  background-color: blue;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+  padding: 1rem;
+}
+.alr {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #555;
+}
+.alr span a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: blue;
+}
+.left {
+  position: relative;
+}
+.mine {
+  background: none;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.mine a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: blue;
+  font-weight: 600;
+}
+.right {
+  margin: 5rem 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  background-color: #fafafa;
+  padding: 3rem 5rem;
+}
+.left img {
+  margin-top: -7rem;
+  z-index: -1;
+}
